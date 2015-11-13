@@ -1,0 +1,63 @@
+{
+	"name":"UNASIGN Nepal Earthquake Assessment (2015)",
+	"short_name":"unasign_nepal_earthquake",
+	"description":"Do you see any damaged infrastructures? A displaced population?",
+	"why":"This project aims to assess the damage caused during the 2015 Nepal earthquake, and its effects on the local population.",
+	"questionnaire":[
+		{
+			"key":"isHousingVisible",
+			"type":"binary",
+			"question":"Do you see housing in this photo?"
+		},
+		{
+			"key":"isInfrastructureVisible",
+			"type":"binary",
+			"question":"Do you see any infrastructure in this photo?"
+		},
+		{
+			"key":"isLocalSocialInfrastructureVisible",
+			"type":"binary",
+			"question":"Do you see any local social infrastructure in this photo?"
+		},
+		{
+			"key":"isDrinkingWaterSourceVisible",
+			"type":"binary",
+			"question":"Do you see any possible source of drinking water in this photo?"
+		},
+		{
+			"key":"isBasicHygienePossible",
+			"type":"binary",
+			"question":"Do you see people able to maintain basic hygiene in this photo?"
+		},
+		{
+			"key":"isAssistanceRequired",
+			"type":"binary",
+			"question":"Do you see people requiring assistance in this photo?"
+		},
+		{
+			"key":"isSanitationIssueVisible",
+			"type":"binary",
+			"question":"Do you see any sanitation issue in this photo?"
+		},
+		{
+			"key":"isHealthFacilityVisible",
+			"type":"binary",
+			"question":"Do you see a health facility in this photo?"
+		},
+		{
+			"key":"areCropsOrLivestockVisible",
+			"type":"binary",
+			"question":"Do you see crops or livestock in this photo?"
+		},
+		{
+			"key":"isPopulationDisplaced",
+			"type":"binary",
+			"question":"Do you see displaced population in this photo?"
+		},
+		{
+			"key":"isEmergencyShelterVisible",
+			"type":"binary",
+			"question":"Do you see emergency shelter in this photo?"
+		}
+	]
+}

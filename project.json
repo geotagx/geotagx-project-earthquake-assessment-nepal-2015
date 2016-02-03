@@ -5,59 +5,64 @@
 	"why":"This project aims to assess the damage caused during the 2015 Nepal earthquake, and its effects on the local population.",
 	"questionnaire":[
 		{
-			"key":"isHousingVisible",
+			"key":"HousingVisible",
 			"type":"binary",
-			"question":"Do you see housing in this photo?"
+			"question":"Do you see housing in this photo?",
+			"hint":"More specifically, can you see houses and buildings in which people live?"
 		},
 		{
-			"key":"isInfrastructureVisible",
+			"key":"InfrastructureVisible",
 			"type":"binary",
-			"question":"Do you see any infrastructure in this photo?"
+			"question":"Do you see any infrastructure in this photo?",
+			"hint":"More specifically, can you see facilities and structures such as roads, rails, bridges, telecommunications, power line, water treatement plant, etcetera?"
 		},
 		{
-			"key":"isLocalSocialInfrastructureVisible",
+			"key":"SocialInfrastructureVisible",
 			"type":"binary",
-			"question":"Do you see any local social infrastructure in this photo?"
+			"question":"Do you see any local social infrastructure in this photo?",
+			"hint":"More specifically, can you see social services (healthcare facilities, education facilities, public transport, etcetera)?"
 		},
 		{
-			"key":"isDrinkingWaterSourceVisible",
+			"key":"HealthFacilityVisible",
 			"type":"binary",
-			"question":"Do you see any possible source of drinking water in this photo?"
+			"question":"Do you see any health facility in this photo?",
+			"hint":"More specifically, can you see public structures where health care is provided?"
 		},
 		{
-			"key":"isBasicHygieneMaintained",
+			"key":"EmergencyShelterVisible",
 			"type":"binary",
-			"question":"Do you see people able to maintain basic hygiene in this photo?"
+			"question":"Do you see any emergency shelter in this photo?",
+			"hint":"More specifically, can you see structures used as a temporary residence?"
 		},
 		{
-			"key":"isAssistanceRequired",
+			"key":"DisplacedPopulationVisible",
 			"type":"binary",
-			"question":"Do you see people requiring assistance in this photo?"
+			"question":"Do you see displaced population in this photo?",
+			"hint":"More specifically, can you see people who has been forced to leave their home?"
 		},
 		{
-			"key":"isSanitationIssueVisible",
+			"key":"AssistancePeopleVisible",
 			"type":"binary",
-			"question":"Do you see any sanitation issue in this photo?"
+			"question":"Do you see people requiring assistance in the photo?",
+			"hint":"More specifically, can you see people requiring some form of assistance?"
 		},
 		{
-			"key":"isHealthFacilityVisible",
+			"key":"DrinkingWaterVisible",
 			"type":"binary",
-			"question":"Do you see a health facility in this photo?"
+			"question":"Do you see any possible source of drinking water in this photo?",
+			"hint":"More specifically, can you see people drinking tap water or water provided by a protected or treated source?"
 		},
 		{
-			"key":"areCropsOrLivestockVisible",
+			"key":"SanitationVisible",
 			"type":"binary",
-			"question":"Do you see crops or livestock in this photo?"
+			"question":"Do you see any sanitation or hygiene issue in this photo?",
+			"hint":"Examples of sanitation issues include sewage or garbage in the street, human waste, non-emergency toilets. For more information and examples, please read the help box."
 		},
 		{
-			"key":"isPopulationDisplaced",
+			"key":"CropLivestockVisible",
 			"type":"binary",
-			"question":"Do you see displaced population in this photo?"
-		},
-		{
-			"key":"isEmergencyShelterVisible",
-			"type":"binary",
-			"question":"Do you see emergency shelter in this photo?"
+			"question":"Do you see crops or livestock in this photo?",
+			"hint":"More specifically, can you see crop plants, agriculture field and/or domestic animals?"
 		}
 	]
 }

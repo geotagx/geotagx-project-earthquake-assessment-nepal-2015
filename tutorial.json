@@ -1,0 +1,275 @@
+{
+	"tutorial":[
+		{
+			"image":"http://asign.cern.ch/display/file/0b8e69f63f3820435c69e84d2b19cdff/preview10834.jpg",
+			"image_source":"",
+			"assertions":{
+				"HousingVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! Buildings in the background are most likely housing.",
+						"no":"Are you sure that the photo does not show houses or buildings? Try zooming in."
+					}
+				},
+				"InfrastructureVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! Roads are a form of infrastructure, and the photo clearly shows a road in the foreground.",
+						"no":"Are you sure that the photo does not show any form of infrastructure? Try to zoom in and take a closer look. If you are not sure what to look for, check out the help for more information."
+					}
+				},
+				"SocialInfrastructureVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see some local social infrastructure in the photo? Check out the help for information on what you should be looking for.",
+						"no":"At first glance, it does not appear that there is any local social infrastructure in this photo. But what about the buildings in the background? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! While we can clearly see buildings in the background, the image is not clear enough for us to tell if they are hosting any form of local social infrastructure."
+					}
+				},
+				"HealthFacilityVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see a health facility in the photo? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see a health facility in the photo? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! The image is not clear enough for us to tell if there is a health facility in the buildings in the background or in the tents in the grass."
+					}
+				},
+				"EmergencyShelterVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! There are several emergency shelters in the photo.",
+						"no":"Are you sure that you can't see any emergency shelter? Try to zoom in and take a closer look, and check out the help for information on what you should be looking for."
+					}
+				},
+				"DisplacedPopulationVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! The photo shows a settlement for internally displaced people, and there are many people walking around or sitting in the grass.",
+						"no":"Are you sure that you can't see displaced people in the photo? Try to zoom in and take a closer look, and check out the help for information on what you should be looking for."
+					}
+				},
+				"AssistancePeopleVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see people requiring assistance? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see people requiring assistance? Check out the help for information on what you should be looking for.",
+						"notclear":"While we can clearly see people in the photo, it is impossible to tell if those people are requiring any form of assistance."
+					}
+				},
+				"DrinkingWaterVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see drinking water in the photo? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see drinking water in the photo? Check out the help for information on what you should be looking for.",
+						"notclear":"Correct! The photo is not clear enough for us to tell if there is or there isn't drinking water."
+					}
+				},
+				"SanitationVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see a sanitation or hygiene issue in the photo? Check out the help for information on what you should be looking for.",
+						"no":"At first glance, it doesn't appear that there is a sanitation or hygiene issue in the photo. But try to zoom into the settlement. Do you see any? Check out the help for information on what you should be looking for.",
+						"notclear":"Correct! The photo is not clear enough for us to tell if there are or aren't visible signs of sanitation or hygiene issues."
+					}
+				},
+				"CropLivestockVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see crops or livestock? Check out the help for information on what you should be looking for.",
+						"no":"Correct! The image doesn't show any crops or livestock."
+					}
+				}
+			}
+		},
+		{
+			"image":"http://asign.cern.ch/display/file/7948114fcb117c235777dc5f9d19acf0/preview62673_rotated_90_degrees_cw.jpg",
+			"image_source":"",
+			"assertions":{
+				"HousingVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! Buildings in the background are most likely housing.",
+						"no":"Are you sure that the photo doesn't show houses or building? Try to zoom in."
+					}
+				},
+				"InfrastructureVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! The photo clearly shows power lines - it does not matter if they are damaged or not. The purpose of this question is only to assess if we can see forms of infrastructure, regardless of their condition.",
+						"no":"Are you sure that the photo doesn’t show any form of infrastructure? Try to zoom in and take a closer look, and check out the help for information on what you should be looking for."
+					}
+				},
+				"SocialInfrastructureVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see any form of local social infrastructure in the photo? Check out the help for information on what you should be looking for.",
+						"no":"At first glance, it doesn't appear that there is any local social infrastructure in the photo, but what about the building on the right? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! While we can clearly see buildings in the background, and one sign on the building on the right side, the image is not clear enough for us to tell if they are hosting any form of local social infrastructure."
+					}
+				},
+				"HealthFacilityVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see a health facility in this photo? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see a health facility in this photo? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! The image is not clear enough for us to tell if the buildings host a health facility."
+					}
+				},
+				"EmergencyShelterVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see emergency shelters in the photo? Take a closer look, and check out the help for information on what you should be looking for.",
+						"no":"Correct! There are no emergency shelter in the photo."
+					}
+				},
+				"DisplacedPopulationVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see displaced people in the photo? Check out the help for information on what you should be looking for, and try again.",
+						"no":"Are you sure that you can't see displaced people in the photo? Check out the help for information on what you should be looking for, and try again.",
+						"notclear":"Well done! While we can clearly see one person in the photo, we don't have enough hints to tell whether or not this person has been forced to leave her home."
+					}
+				},
+				"AssistancePeopleVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see people requiring assistance? Check out the help for information on what you should be looking for.",
+						"no":"Well done! While we can clearly see one person in the photo, it doesn't seems that she is requiring assistance."
+					}
+				},
+				"DrinkingWaterVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! If you look closely at the middle of the photo, you can see there is a huge bottle of water on the table.",
+						"no":"Are you sure that you can't see drinking water in the photo? Check out the help for information on what you should be looking for."
+					}
+				},
+				"SanitationVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see some sanitation or hygiene issues in the photo? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see any sanitation or hygiene issue in the photo? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! While we can clearly see objects piling up in the debris, it is hard to tell whether or not some of these are garbage or human waste."
+					}
+				},
+				"CropLivestockVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see crops or livestock? Check out the help for information on what you should be looking for.",
+						"no":"Correct! The image doesn't show any crops or livestock."
+					}
+				}
+			}
+		},
+		{
+			"image":"http://asign.cern.ch/display/file/f4bc15fa4734d9084a95f57d2384303e/preview80557.jpg",
+			"image_source":"",
+			"assertions":{
+				"HousingVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! Buildings in the background are most likely housing.",
+						"no":"Are you sure that the photo doesn't show houses or building? Try to zoom in."
+					}
+				},
+				"InfrastructureVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see infrastructure in the photo? Try to zoom in and take a closer look, and check out the help for information on what you should be looking for.",
+						"no":"Are you sure that the photo doesn’t show any form of infrastructure? Try to zoom in and take a closer look, and check out the help for information on what you should be looking for.",
+						"notclear":"Well done! It is very hard to tell whether or not there is any infrastrucure in this photo."
+					}
+				},
+				"SocialInfrastructureVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! We can clearly see shop signs on the buildings on the right side.",
+						"no":"Are you sure that you can't see any local social infrastructure in the photo? Check out the help for information on what you should be looking for."
+					}
+				},
+				"HealthFacilityVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see a health facility in this photo? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can't see a health facility in this photo? Check out the help for information on what you should be looking for.",
+						"notclear":"Well done! The image is not clear enough for us to tell whether or not there is a health facility among the buildings."
+					}
+				},
+				"EmergencyShelterVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see emergency shelters in the photo? Take a closer look, and check out the help for information on what you should be looking for.",
+						"no":"Correct! There are no emergency shelters in the photo."
+					}
+				},
+				"DisplacedPopulationVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see displaced people in the photo? Check out the help for information on what you should be looking for, and try again.",
+						"no":"Are you sure that you can't see displaced people in the photo? Check out the help for information on what you should be looking for, and try again.",
+						"notclear":"Well done! While we can clearly see people in the photo, we don't have enough hints to tell whether or not they have been forced to leave their home."
+					}
+				},
+				"AssistancePeopleVisible":{
+					"expects":"notclear",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see people requiring assistance? Check out the help for information on what you should be looking for.",
+						"no":"Are you sure that you can see people requiring assistance in the photo? Check out the help for information on what you should be looking for, and try again.",
+						"notclear":"Well done! While we can clearly see people in the photo, we don't  have enough elements to tell whether or not they require assistance."
+					}
+				},
+				"DrinkingWaterVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Do you really see drinking water in the photo? Take a closer look and check out the help for information on what you should be looking for. ",
+						"no":"Well done! There isn't any source of drinking water in the photo."
+					}
+				},
+				"SanitationVisible":{
+					"expects":"yes",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Well done! We can clearly see garbage piling up among the debris.",
+						"no":"Are you sure that you can't see a sanitation or hygiene issue in the photo? Check out the help for information on what you should be looking for."
+					}
+				},
+				"CropLivestockVisible":{
+					"expects":"no",
+					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+					"messages":{
+						"yes":"Are you sure that you can see crops or livestock? Check out the help for information on what you should be looking for.",
+						"no":"Correct! The image doesn't show any crops or livestock."
+					}
+				}
+			}
+		}
+	]
+}

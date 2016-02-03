@@ -151,7 +151,7 @@
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
 						"yes":"Do you really see people requiring assistance? Check out the help for information on what you should be looking for.",
-						"no":"Well done! While we can clearly see one person in the photo, it doesn't seems that she is requiring assistance."
+						"no":"Well done! While we can clearly see one person in the photo, it doesn't seem that she requires any assistance."
 					}
 				},
 				"DrinkingWaterVisible":{

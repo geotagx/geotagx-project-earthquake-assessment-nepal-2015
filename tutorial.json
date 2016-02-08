@@ -60,7 +60,7 @@
 					"messages":{
 						"yes":"Do you really see people requiring assistance? Click on 'help' for information on what you should be looking for.",
 						"no":"Are you sure that you can't see people requiring assistance? Click on 'help' for information on what you should be looking for.",
-						"notclear":"While we can clearly see people in the photo, it is impossible to tell if those people are requiring any form of assistance."
+						"notclear":"Well done! While we can clearly see people in the photo, it is impossible to tell if those people are requiring any form of assistance."
 					}
 				},
 				"DrinkingWaterVisible":{
@@ -69,7 +69,7 @@
 					"messages":{
 						"yes":"Are you sure that you can see drinking water in the photo? Click on 'help' for information on what you should be looking for.",
 						"no":"Are you sure that you can't see drinking water in the photo? Click on 'help' for information on what you should be looking for.",
-						"notclear":"Correct! The photo is not clear enough for us to tell if there is or there isn't drinking water."
+						"notclear":"Correct! The photo is not clear enough for us to tell whether or not there is drinking water."
 					}
 				},
 				"SanitationVisible":{
@@ -78,7 +78,7 @@
 					"messages":{
 						"yes":"Are you sure that you can see a sanitation or hygiene issue in the photo? Click on 'help' for information on what you should be looking for.",
 						"no":"At first glance, it doesn't appear that there is a sanitation or hygiene issue in the photo. But try to zoom into the settlement. Do you see any? Click on 'help' for information on what you should be looking for.",
-						"notclear":"Correct! The photo is not clear enough for us to tell if there are or aren't visible signs of sanitation or hygiene issues."
+						"notclear":"Correct! The photo is not clear enough for us to tell whether or not there are visible signs of sanitation or hygiene issues."
 					}
 				},
 				"CropLivestockVisible":{
@@ -134,7 +134,7 @@
 					"default_message":"Try again. If you are not sure what to look for, click on 'help' for more information.",
 					"messages":{
 						"yes":"Do you really see emergency shelters in the photo? Take a closer look, and click on 'help' for information on what you should be looking for.",
-						"no":"Correct! There are no emergency shelter in the photo."
+						"no":"Correct! There are no emergency shelters in the photo."
 					}
 				},
 				"DisplacedPopulationVisible":{
@@ -241,7 +241,7 @@
 					"default_message":"Try again. If you are not sure what to look for, click on 'help' for more information.",
 					"messages":{
 						"yes":"Do you really see people requiring assistance? Click on 'help' for information on what you should be looking for.",
-						"no":"Are you sure that you can see people requiring assistance in the photo? Click on 'help' for information on what you should be looking for, and try again.",
+						"no":"Are you sure that you can't see people requiring assistance in the photo? Click on 'help' for information on what you should be looking for, and try again.",
 						"notclear":"Well done! While we can clearly see people in the photo, we don't  have enough elements to tell whether or not they require assistance."
 					}
 				},
@@ -257,8 +257,8 @@
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, click on 'help' for more information.",
 					"messages":{
-						"yes":"Well done! We can clearly see garbage piling up among the debris.",
-						"no":"Are you sure that you can't see a sanitation or hygiene issue in the photo? Click on 'help' for information on what you should be looking for."
+						"yes":"Well done! We can clearly see garbage piling up among the debris in this photo.",
+						"no":"Are you sure that you can't see any sanitation or hygiene issue in the photo? Click on 'help' for information on what you should be looking for."
 					}
 				},
 				"CropLivestockVisible":{
